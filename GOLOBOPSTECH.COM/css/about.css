@@ -1,0 +1,785 @@
+/* Container for the welcome about area */
+.welcomeabout-area {
+    padding: 0px ; /* Adds vertical padding to the section */
+    background-color: #f8f9fa; /* Light background color for contrast */
+}
+
+/* Ensures full-width for larger screens */
+.welcomeabout-area .row {
+    margin: 0; /* Removes any default margin */
+    padding: 0; /* Removes any default padding */
+}
+
+/* Column handling for larger screens */
+.welcomeabout-area .col-lg-12 {
+    display: flex; /* Enables flexbox for the column */
+    justify-content: center; /* Centers the content horizontally */
+}
+
+/* Centered text container */
+.welcomeaboiut2 {
+    max-width: 300px; /* Limits the width of the text block */
+    margin: 0 auto; /* Centers the block within the parent */
+    text-align: center; /* Centers the text */
+}
+
+/* Styling the heading */
+.font-lora {
+    font-family: 'Lora', serif; /* Uses the 'Lora' font-family */
+}
+
+.font-60 {
+    font-size: 50px; /* Sets the font size */
+}
+
+.lineh-64 {
+    line-height: 14px; /* Controls the line height */
+}
+
+.weight-500 {
+    font-weight: 200; /* Medium font weight */
+}
+
+.color {
+    color: #363535; /* Sets the text color */
+}
+
+.margin-b24 {
+    margin-bottom: 14px; /* Adds space below the heading */
+}
+
+
+/* General styling for the about section area */
+.about3-section-area {
+    padding: 60px 0; /* Vertical padding for the section */
+    background-color: #f8f9fa; /* Light background color */
+}
+
+/* Container styling */
+.about3-section-area .container {
+    max-width: 1200px; /* Ensures a maximum width */
+    margin: 0 auto; /* Centers the container */
+}
+
+/* Row alignment */
+.about3-section-area .row {
+    display: flex; /* Flexbox for aligning content */
+    align-items: center; /* Centers items vertically */
+}
+
+/* Image container */
+.about3-images1 {
+    text-align: center; /* Centers the image horizontally */
+    padding: 15px; /* Padding around the image */
+}
+
+.about3-images1 img {
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+/* Text area styling */
+.about3-textarea1 {
+    padding: 20px; /* Padding inside the text area */
+}
+.theme6-btn6 {
+    margin-top: 32px;
+    padding: 10px 20px;
+}
+.row {
+    margin: 0 --15px;
+}
+.col-lg-6,.col-md-6 {
+    padding: 0 15px;
+}
+
+/* About Us span styling */
+.about3span {
+    color: #1a1a1a; /* Text color */
+    font-size: 16px; /* Font size */
+    font-weight: 600; /* Font weight */
+    line-height: 16px; /* Line height */
+    margin-bottom: 24px; /* Spacing below the span */
+    display: inline-block; /* Ensures span behaves like a block */
+}
+
+/* Heading styling */
+.about3-textarea1 h3 {
+    font-family: 'Lora', serif; /* Font family */
+    font-size: 48px; /* Font size */
+    line-height: 56px; /* Line height */
+    font-weight: 600; /* Font weight */
+    color: #1a1a1a; /* Text color */
+    margin-bottom: 20px; /* Spacing below the heading */
+}
+
+/* Paragraph styling */
+.about3-textarea1 p {
+    font-family: 'Karla', sans-serif; /* Font family */
+    font-size: 16px; /* Font size */
+    line-height: 26px; /* Line height */
+    font-weight: 500; /* Font weight */
+    color: #4a4a4a; /* Text color */
+}
+
+/* Counter section styling */
+.counter3-area3 {
+    margin-top: 32px; /* Space above the counters */
+}
+
+.counter3-boxarea4 {
+    padding: 20px; /* Padding inside the counter boxes */
+    border-radius: 2px;
+    margin: 0;
+   
+    display: flex;
+    box-shadow: #1a1a1a;
+    min-width: 240px;
+    min-height: 120px;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+    transition: all .4s ease-in-out;
+}
+
+.counter4-boxarea4 h1 {
+    font-family: 'Lora', serif; /* Font family */
+    font-size: 40px; /* Font size */
+    line-height: 40px; /* Line height */
+    font-weight: 600; /* Font weight */
+    color: #1a1a1a; /* Text color */
+    margin-bottom: 10px; /* Space below the number */
+}
+
+.counter4-boxarea4 p {
+    font-family: 'Karla', sans-serif; /* Font family */
+    font-size: 16px; /* Font size */
+    line-height: 16px; /* Line height */
+    font-weight: 500; /* Font weight */
+    color: #4a4a4a; /* Text color */
+}
+
+/* Button styling */
+.theme6-btn6 {
+    display: inline-block; /* Ensures the button behaves like a block */
+    padding: 12px 24px; /* Padding inside the button */
+    background-color: #10b7ba; /* Button background color */
+    color: #fff; /* Button text color */
+    font-size: 16px; /* Font size */
+    font-weight: 700; /* Font weight */
+    text-decoration: none; /* Removes underline */
+    border-radius: 5px; /* Optional: Adds rounded corners */
+    margin-top: 32px; /* Space above the button */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.theme6-btn6:hover {
+    background-color: #005bb5; /* Darker background on hover */
+}
+
+/* Margin classes for spacing adjustments */
+.margin-b20 {
+    margin-bottom: 20px; /* Space below */
+}
+
+.margin-b {
+    margin-bottom: 10px; /* Space below */
+}
+
+.margin-t32 {
+    margin-top: 32px; /* Space above */
+}
+
+.margin-b24 {
+    margin-bottom: 24px; /* Space below */
+}
+
+
+/* General styling for the vision section area */
+.vission-section-area {
+    padding: 60px 0; /* Vertical padding for the section */
+    position: relative; /* Positioning for the background element */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+/* Background image styling */
+.vission-section-area .elementor24 {
+    position: absolute; /* Absolutely positioned to float within the section */
+    top: 0; /* Aligns with the top of the section */
+    left: 0; /* Aligns with the left of the section */
+    width: 100%; /* Ensures the background covers the full width */
+    z-index: -1; /* Places the image behind other content */
+    opacity: 0.1; /* Light opacity to serve as a background */
+}
+
+/* Container styling */
+.vission-section-area .container {
+    max-width: 1200px; /* Ensures a maximum width */
+    margin: 0 auto; /* Centers the container */
+}
+
+/* Row alignment */
+.vission-section-area .row {
+    display: flex; /* Flexbox for aligning content */
+    align-items: center; /* Centers items vertically */
+}
+
+/* Text area styling */
+.vission-textarea {
+    padding: 20px; /* Padding inside the text area */
+}
+
+/* Heading styling */
+.vission-textarea h1 {
+    font-family: 'Lora', serif; /* Font family */
+    font-size: 48px; /* Font size */
+    line-height: 56px; /* Line height */
+    font-weight: 600; /* Font weight */
+    color: #1a1a1a; /* Text color */
+    margin-bottom: 20px; /* Spacing below the heading */
+}
+
+/* Paragraph styling */
+.vission-textarea p {
+    font-family: 'Karla', sans-serif; /* Font family */
+    font-size: 16px; /* Font size */
+    line-height: 26px; /* Line height */
+    font-weight: 500; /* Font weight */
+    color: #4a4a4a; /* Text color */
+    margin-bottom: 24px; /* Spacing below the paragraph */
+}
+
+/* Border styling */
+.border7 {
+    width: 60px; /* Fixed width for the border */
+    height: 4px; /* Fixed height for the border */
+    background-color: #0073e6; /* Border color */
+    margin-bottom: 20px; /* Space below the border */
+}
+
+/* Navigation section styling */
+.nav-section-area .nav-pills .nav-link {
+    font-family: 'Karla', sans-serif; /* Font family */
+    font-size: 16px; /* Font size */
+    font-weight: 600; /* Font weight */
+    color: #1a1a1a; /* Text color */
+    padding: 10px 20px; /* Padding inside the buttons */
+    border-radius: 30px; /* Adds rounded corners */
+    background-color: transparent; /* Transparent background */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition effect */
+}
+
+.nav-section-area .nav-pills .nav-link.active {
+    background-color: #0073e6; /* Active button background color */
+    color: #fff; /* Active button text color */
+}
+
+.nav-section-area .nav-pills .nav-link:hover {
+    background-color: #005bb5; /* Hover background color */
+    color: #fff; /* Hover text color */
+}
+
+/* Tab content styling */
+.tab-content .tab-pane p {
+    font-family: 'Karla', sans-serif; /* Font family */
+    font-size: 16px; /* Font size */
+    line-height: 26px; /* Line height */
+    font-weight: 500; /* Font weight */
+    color: #4a4a4a; /* Text color */
+    margin-bottom: 20px; /* Spacing below the paragraphs */
+}
+
+.tab-content .tab-pane p .weight-700 {
+    font-weight: 700; /* Bold text within paragraphs */
+    color: #1a1a1a; /* Text color */
+}
+
+/* Button styling */
+.theme6-btn6 {
+    display: inline-block; /* Ensures the button behaves like a block */
+    padding: 12px 24px; /* Padding inside the button */
+    background-color: #0073e6; /* Button background color */
+    color: #fff; /* Button text color */
+    font-size: 16px; /* Font size */
+    font-weight: 700; /* Font weight */
+    text-decoration: none; /* Removes underline */
+    border-radius: 5px; /* Optional: Adds rounded corners */
+    margin-top: 32px; /* Space above the button */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.theme6-btn6:hover {
+    background-color: #005bb5; /* Darker background on hover */
+}
+
+/* Image container styling */
+.vissionimages {
+    text-align: center; /* Centers the image horizontally */
+}
+
+.vissionimages img {
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+
+/* General section styling */
+.team1-section-area {
+    padding: 60px 0; /* Padding for top and bottom */
+    background-color: #f9f9f9; /* Light background color for contrast */
+}
+
+/* Team section title */
+.team-section-textarea {
+    margin-bottom: 60px; /* Margin for spacing */
+}
+
+.about3span {
+    font-size: 16px; /* Font size for subtitle */
+    color: #0056b3; /* Color for subtitle */
+}
+
+.clienth2 {
+    font-size: 48px; /* Font size for main heading */
+    line-height: 56px; /* Line height for main heading */
+    color: #2a2a2a; /* Dark color for contrast */
+}
+
+/* Team member card styles */
+.project-item-two {
+    background: #fff; /* White background for team cards */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    overflow: hidden; /* Prevent overflow of child elements */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for hover effects */
+}
+
+.project-item-two:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+/* Team member images */
+.project-thumb-two img {
+    width: 100%; /* Full width of the card */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Social media icons */
+.project-content-two ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: center; /* Center items */
+    margin: 15px 0; /* Margin around social icons */
+}
+
+.project-content-two ul li {
+    margin: 0 10px; /* Space between icons */
+}
+
+.project-content-two ul li a {
+    color: #0056b3; /* Default color for icons */
+    font-size: 18px; /* Icon size */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.project-content-two ul li a:hover {
+    color: #ff5722; /* Color change on hover */
+}
+
+/* Team member details */
+.team-pera {
+    text-align: center; /* Center text */
+    padding: 20px 15px; /* Padding for spacing */
+}
+
+.team-pera h1 {
+    font-size: 24px; /* Font size for names */
+    line-height: 24px; /* Line height for names */
+    color: #0056b3; /* Name color */
+    margin-bottom: 12px; /* Margin below name */
+}
+
+.team-pera h1 a {
+    color: inherit; /* Inherit color from parent */
+    text-decoration: none; /* Remove underline from name link */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.team-pera h1 a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.team-pera p {
+    font-size: 16px; /* Font size for positions */
+    line-height: 16px; /* Line height for positions */
+    color: #757575; /* Gray color for position */
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+    .project-item-two {
+        margin-bottom: 30px; /* Space between cards on smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .team-section-textarea {
+        margin-bottom: 40px; /* Reduced margin for smaller screens */
+    }
+
+    .clienth2 {
+        font-size: 36px; /* Smaller font size for heading */
+        line-height: 44px; /* Adjusted line height */
+    }
+}
+
+/* General styling for the mission section */
+.mission-area-starts {
+    padding: 60px 0; /* Vertical padding for the section */
+    background-color: #f4f4f4; /* Light background color for contrast */
+}
+
+/* Container styling */
+.mission-area-starts .container {
+    max-width: 1200px; /* Maximum width for the container */
+    margin: 0 auto; /* Centers the container horizontally */
+}
+
+/* Row alignment */
+.mission-area-starts .row {
+    display: flex; /* Flexbox for aligning content */
+    align-items: center; /* Centers content vertically */
+}
+
+/* Image container styling */
+.missionimg {
+    text-align: center; /* Centers the image horizontally */
+}
+
+.missionimg img {
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 8px; /* Optional: Adds rounded corners to the image */
+}
+
+/* Text area styling */
+.missiontextarea {
+    padding: 20px; /* Padding inside the text area */
+}
+
+/* Heading styling */
+.missiontextarea h1 {
+    font-family: 'Lora', serif; /* Font family for the heading */
+    font-size: 48px; /* Font size for the heading */
+    line-height: 56px; /* Line height for the heading */
+    font-weight: 600; /* Font weight for the heading */
+    color: #1a1a1a; /* Dark color for the heading */
+    margin-bottom: 20px; /* Spacing below the heading */
+}
+
+/* Paragraph styling */
+.missiontextarea p {
+    font-family: 'Karla', sans-serif; /* Font family for paragraphs */
+    font-size: 16px; /* Font size for paragraphs */
+    line-height: 26px; /* Line height for paragraphs */
+    font-weight: 500; /* Font weight for paragraphs */
+    color: #4a4a4a; /* Text color for paragraphs */
+    margin-bottom: 20px; /* Spacing below paragraphs */
+}
+
+/* Unordered list styling */
+.missiontextarea ul {
+    padding-left: 0; /* Removes default padding from the list */
+    list-style-type: none; /* Removes default list bullets */
+}
+
+.missiontextarea ul li {
+    font-family: 'Karla', sans-serif; /* Font family for list items */
+    font-size: 16px; /* Font size for list items */
+    line-height: 26px; /* Line height for list items */
+    font-weight: 600; /* Font weight for list items */
+    color: #2d2d2d; /* Text color for list items */
+    margin-bottom: 20px; /* Spacing below each list item */
+    display: flex; /* Flexbox for aligning icon and text */
+    align-items: center; /* Centers icon and text vertically */
+}
+
+.missiontextarea ul li img {
+    margin-right: 10px; /* Spacing between the icon and the text */
+}
+
+/* Button styling */
+.theme6-btn6 {
+    display: inline-block; /* Ensures the button behaves like a block */
+    padding: 12px 24px; /* Padding inside the button */
+    background-color: #0073e6; /* Button background color */
+    color: #fff; /* Button text color */
+    font-size: 16px; /* Font size for the button text */
+    font-weight: 700; /* Font weight for the button text */
+    text-decoration: none; /* Removes underline from the button text */
+    border-radius: 5px; /* Adds rounded corners to the button */
+    margin-top: 32px; /* Spacing above the button */
+    transition: background-color 0.3s ease; /* Smooth transition effect on hover */
+}
+
+.theme6-btn6:hover {
+    background-color: #1d2490; /* Darker background color on hover */
+}
+
+/* General styling for the law provide section */
+.lawprovide-section-area {
+    position: relative;
+    padding: 60px 0; /* Vertical padding for the section */
+    background-color: #c9e9eb; /* Light background color for the section */
+}
+
+/* Background image positioning */
+.lawprovide-section-area .elementor24,
+.lawprovide-section-area .elementor25 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    opacity: 0.1; /* Faint appearance of the background image */
+}
+
+/* Container styling */
+.lawprovide-section-area .container {
+    max-width: 1200px; /* Maximum width for the container */
+    margin: 0 auto; /* Centers the container horizontally */
+}
+
+/* Row alignment */
+.lawprovide-section-area .row {
+    display: flex; /* Flexbox for aligning content */
+    align-items: center; /* Centers content vertically */
+    flex-wrap: wrap; /* Allows wrapping of content on smaller screens */
+}
+
+/* Text area styling */
+.lawprovide-textarea {
+    padding: 20px; /* Padding inside the text area */
+    
+}
+
+.lawprovide-textarea h1 {
+    font-family: 'Lora', serif; /* Font family for the heading */
+    font-size: 48px; /* Font size for the heading */
+    line-height: 56px; /* Line height for the heading */
+    font-weight: 600; /* Font weight for the heading */
+    color: #1a1a1a; /* Dark color for the heading */
+    margin-bottom: 20px; /* Spacing below the heading */
+    
+}
+
+
+.lawprovide-textarea p {
+    font-family: 'Karla', sans-serif; /* Font family for paragraphs */
+    font-size: 16px; /* Font size for paragraphs */
+    line-height: 26px; /* Line height for paragraphs */
+    font-weight: 500; /* Font weight for paragraphs */
+    color: #4a4a4a; /* Text color for paragraphs */
+    margin-bottom: 20px; /* Spacing below paragraphs */
+    text-decoration: none;
+}
+
+/* Hover effect for the whole .lawprovide-boaxrea container */
+.lawprovide-boaxrea:hover {
+    background-color: #f0f8ff; /* Light blue background on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Slightly deeper shadow on hover */
+    transform: translateY(-5px); /* Moves the box slightly upwards on hover */
+    transition: all 0.3s ease-in-out; /* Smooth transition for the hover effects */
+}
+.lax-conultingprovide a:hover {
+    color: #003d80; /* Darken the link text color on hover */
+    text-decoration: none; /* Ensure no underline on hover */
+}
+
+/* Hover effect for the h1 title inside .lax-conultingprovide */
+.lax-conultingprovide h1:hover {
+    color: #0056b3; /* Change the title color to a darker blue on hover */
+    text-decoration: underline; /* Underline the title on hover */
+    transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out; /* Smooth transition for the hover effect */
+}
+
+/* Hover effect for the p paragraph inside .lax-conultingprovide */
+.lax-conultingprovide p:hover {
+    color: #333; /* Darken the paragraph text color slightly on hover */
+    transition: color 0.3s ease-in-out; /* Smooth transition for the hover effect */
+}
+
+/* Hover effect for the icon inside .guidiance-boxarea */
+.guidiance-boxarea img.ts:hover {
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for the hover effect */
+}
+
+/* Hover effect for the link inside .lax-conultingprovide */
+.lax-conultingprovide a:hover {
+    color: #0056b3; /* Darken the link text color on hover */
+    transition: color 0.3s ease-in-out; /* Smooth transition for the hover effect */
+}
+
+
+/* Button styling */
+.theme6-btn6 {
+    display: inline-block; /* Ensures the button behaves like a block */
+    padding: 12px 24px; /* Padding inside the button */
+    background-color: #1d2940; /* Button background color */
+    color: #fff; /* Button text color */
+    font-size: 16px; /* Font size for the button text */
+    font-weight: 700; /* Font weight for the button text */
+    text-decoration: none; /* Removes underline from the button text */
+    border-radius: 5px; /* Adds rounded corners to the button */
+    margin-top: 32px; /* Spacing above the button */
+    transition: background-color 0.3s ease; /* Smooth transition effect on hover */
+}
+
+.theme6-btn6:hover {
+    background-color: #005bb5; /* Darker background color on hover */
+}
+
+/* Box area styling */
+.lawprovide-boaxrea {
+    background-color: #fff; /* White background for the box */
+    padding: 20px; /* Padding inside the box */
+    border-radius: 8px; /* Rounded corners for the box */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for the box */
+    margin-bottom: 30px; /* Spacing below each box */
+    display: flex; /* Flexbox for aligning content */
+    align-items: flex-start; /* Aligns items at the top */
+}
+
+.guidiance-boxarea {
+    margin-right: 20px; /* Spacing between the icon and the text */
+}
+
+.guidiance-boxarea img.ts {
+    width: 40px; /* Fixed width for the icon */
+    height: 40px; /* Fixed height for the icon */
+}
+
+.lax-conultingprovide h1 {
+    font-family: 'Lora', serif; /* Font family for the box heading */
+    font-size: 24px; /* Font size for the box heading */
+    line-height: 24px; /* Line height for the box heading */
+    font-weight: 600; /* Font weight for the box heading */
+    color: #1a1a1a; /* Dark color for the box heading */
+    margin-bottom: 14px; /* Spacing below the box heading */
+    text-decoration: none;
+}
+
+.lax-conultingprovide p {
+    font-family: 'Karla', sans-serif; /* Font family for box paragraphs */
+    font-size: 16px; /* Font size for box paragraphs */
+    line-height: 26px; /* Line height for box paragraphs */
+    font-weight: 500; /* Font weight for box paragraphs */
+    color: #4a4a4a; /* Text color for box paragraphs */
+    margin-bottom: 0; /* Removes default margin below paragraphs */
+    text-decoration: none;
+}
+
+
+/* General CTA section styling */
+.cta5-section-area {
+    padding: 60px 0; /* Padding for top and bottom */
+    background-color: #f2f2f2; /* Light background color */
+    position: relative; /* Positioning for background images */
+}
+
+/* Background images */
+.elementors72, .elementors73 {
+    position: absolute; /* Positioning for overlay */
+    left: 0; /* Align to left */
+    right: 0; /* Align to right */
+    top: 0; /* Align to top */
+    z-index: -1; /* Place behind content */
+}
+
+/* CTA author area styling */
+.cta5-auhtor6-area {
+    margin-bottom: 30px; /* Spacing below text */
+}
+
+.cta5-auhtor6-area h1 {
+    font-size: 48px; /* Font size for main heading */
+    line-height: 52px; /* Line height for heading */
+    color: #2a2a2a; /* Dark color for text */
+    margin-bottom: 20px; /* Margin below heading */
+}
+
+.cta5-auhtor6-area p {
+    font-size: 16px; /* Font size for paragraph */
+    line-height: 26px; /* Line height for paragraph */
+    color: #666; /* Gray color for paragraph text */
+}
+
+/* Button section styling */
+.cta5-btn5-sexction {
+    display: flex; /* Flexbox for button alignment */
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 15px; /* Space between buttons */
+}
+
+.theme6-btn6 {
+    display: inline-block; /* Inline block for buttons */
+    padding: 15px 25px; /* Padding for buttons */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Centered text */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transition effects */
+    text-decoration: none; /* Remove underline */
+}
+
+.bakgrnd5 {
+    background-color: #1d2940; /* Background color for first button */
+    color: #fff; /* Text color for button */
+}
+
+.bakgrnd5:hover {
+    background-color: #004494; /* Darker background on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+.backgrnd6 {
+    background-color: #1d2490; /* White background for second button */
+    color: #ffffff; /* Text color for button */
+    border: 2px solid #0056b3; /* Border for button */
+}
+
+
+.backgrnd6:hover {
+    background-color: #0c0d0e; /* Background color change on hover */
+    color: #fff; /* Change text color on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+    .cta5-section-area {
+        padding: 40px 0; /* Reduced padding for smaller screens */
+    }
+    
+    .cta5-auhtor6-area h1 {
+        font-size: 36px; /* Smaller font size for heading */
+        line-height: 44px; /* Adjusted line height */
+    }
+}
+
+@media (max-width: 768px) {
+    .cta5-btn5-sexction {
+        flex-direction: column; /* Stack buttons vertically on smaller screens */
+        align-items: center; /* Center buttons */
+    }
+
+    .cta5-auhtor6-area {
+        margin-bottom: 20px; /* Adjust margin for smaller screens */
+    }
+}
+
+

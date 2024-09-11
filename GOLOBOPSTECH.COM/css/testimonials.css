@@ -1,0 +1,253 @@
+/* Testimonial Section Styles */
+.testimonialinner-section-area {
+            /* Section padding */
+    background-color: #f4f4f4; /* Background color */
+}
+
+.testimonialinner-section-area h1 {
+    font-family: 'Lora', serif;
+    font-size: 48px;
+    line-height: 52px;
+    color: #333; /* Adjust the heading color */
+    font-weight: 600;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.testimonial-autor-area {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.testimonial-autor-area .qutio1 {
+    margin-bottom: 20px;
+}
+
+.testimonial-autor-area .qutio1 img {
+    width: 50px; /* Adjust the size of the quote icon */
+}
+
+.star-widget {
+    display: flex;
+    padding: 10px;
+    gap: 35px; /* Space between stars */
+    margin-bottom: 20px;
+}
+
+.star-widget input[type="radio"] {
+    display: none; /* Hide radio buttons */
+}
+
+.star-widget label {
+    cursor: pointer;
+}
+
+.star-widget label i {
+    font-size: 20px; /* Adjust the star size */
+}
+
+.testimonial-autor-area p {
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #333; /* Text color */
+    margin-bottom: 24px;
+    margin-top: 20px;
+}
+
+.testimonial-autor-area .border-4 {
+    height: 2px;
+    background-color: #ddd; /* Border color */
+    margin-bottom: 24px;
+}
+
+.mans-author {
+    display: flex;
+    align-items: center;
+}
+
+.mans img {
+    border-radius: 50%;
+    width: 60px; /* Adjust the size of the author image */
+    height: 60px;
+    margin-right: 15px;
+}
+
+.names-text h1 {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    line-height: 18px;
+    color: #333; /* Author name color */
+    font-weight: 600;
+    margin-bottom: 11px;
+}
+
+.names-text p {
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #777; /* Additional text color */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .testimonialinner-section-area h1 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    
+    .testimonial-autor-area {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .testimonialinner-section-area h1 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .testimonial-autor-area {
+        padding: 20px;
+    }
+
+    .mans img {
+        width: 50px; /* Adjust the size for smaller screens */
+        height: 50px;
+    }
+}
+
+/* FAQ AREA  */
+.faq-section-area {
+    padding: 80px 0;
+    position: relative;
+    background-color: #f9f9f9;
+}
+
+.faq-section-area .elementor24, 
+.faq-section-area .elementor25 {
+    position: absolute;
+    z-index: 1;
+}
+
+.faq-section-area .elementor24 {
+    top: 0;
+    left: 0;
+}
+
+.faq-section-area .elementor25 {
+    bottom: 0;
+    right: 0;
+}
+
+.faq-section-area .faq-textarea {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.faq-section-area .faq-textarea h1 {
+    font-family: 'Lora', serif;
+    font-size: 48px;
+    line-height: 52px;
+    color: #292929;
+    font-weight: 600;
+}
+
+.accordian-area {
+    z-index: 2;
+}
+
+.accordion-button {
+    background-color: #ffffff;
+    color: #292929;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    outline: none;
+    box-shadow: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #f7f7f7;
+    color: #292929;
+    font-weight: 600;
+}
+
+.accordion-button:focus {
+    border-color: #e0e0e0;
+    box-shadow: none;
+}
+
+.accordion-button:hover {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+/* Remove the default arrow */
+.accordion-button::after {
+    display: none;
+}
+
+.accordion-body {
+    padding: 15px 20px;
+    background-color: #ffffff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-body:hover {
+    background-color: #f1f1f1;
+}
+
+.accordion-body p {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #222222;
+    transition: color 0.3s ease;
+}
+
+.accordion-item {
+    border: none;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.accordion-item:hover {
+    transform: translateY(-5px);
+}
+
+@media (max-width: 767px) {
+    .faq-section-area .faq-textarea h1 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .accordion-button {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .accordion-body {
+        padding: 12px 15px;
+    }
+
+    .accordion-body p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
